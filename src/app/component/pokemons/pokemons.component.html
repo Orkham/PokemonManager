@@ -1,0 +1,17 @@
+<div>
+<p>{{pokemonsInBase}} pokémons en base de données</p>
+<ul>
+
+  <li *ngFor="let pokemon of pokemons">
+    <h3>{{pokemon.name}}</h3>
+    <img src={{imgPokemon(pokemon.id)}} />
+    <div class="carac">
+      <p>Catégorie : {{pokemon.category}}</p>
+      <p>Type : <span *ngFor="let type of pokemon.type">{{type}} </span></p>
+      <p>Taille : {{pokemon.size/100}}m</p>
+      <p>Poids : {{pokemon.weight}} kg</p>
+    </div>
+  </li>
+
+</ul>
+</div>

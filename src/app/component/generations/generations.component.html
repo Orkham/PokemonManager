@@ -1,0 +1,9 @@
+<div>
+<h1>Générations de Pokémons</h1>
+  <h2 (click)="toggleVisibility()">les différentes générations : </h2>
+<ul id="generationsList" class="invisible">
+  <li *ngFor="let generation of generations"  (click)="displayGeneration($event)">{{generation.generation}}</li>
+
+</ul>
+
+</div>

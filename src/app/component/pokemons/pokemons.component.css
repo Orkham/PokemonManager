@@ -1,0 +1,21 @@
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li{
+  list-style: none;
+  width: 33%;
+  margin-bottom: 1rem;
+}
+
+.carac{
+  padding-left: 1rem;
+  border-left: 1px solid grey
+}
+img{
+  aspect-ratio: 1;
+  width: 80%;
+  object-view-box:inset(10%);
+  /*object-fit: cover;*/
+}

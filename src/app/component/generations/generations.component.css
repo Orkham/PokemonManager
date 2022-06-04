@@ -1,0 +1,15 @@
+h2{
+  text-transform: uppercase;
+}
+
+.invisible{
+  display: none;
+}
+li{
+  list-style: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+li:hover{
+  background-color: #7f7f83;
+}
